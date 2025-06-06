@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Pharohs StuPro Login</title>
+  <link rel="stylesheet" href="loginteacher.css">
+</head>
+<body>
+  <div class="login-container">
+    <p class="greeting">Hi there! Nice to see you again.</p>
+    <img src="photo/Снимок экрана 2025-05-05 211644.png" alt="Logo" class="logo">
+    <h3>Pharohs StuPro</h3>
+    <h3><strong>Login</strong></h3>
+
+    <div class="role-selection">
+      <label ><a style="text-decoration: none;" href="login.html"><input class="ass" type="radio" name="role" checked><strong style="cursor: pointer; color: #9E95A2" >Student</strong></a></label>
+
+
+      <label ><input class="ssa" type="radio" name="role" checked><strong >Teacher</strong></a></label>
+    </div>
+
+    <form style="font-weight: 200px;">
+      <label for="username"><strong>Username</strong></label>
+      <input  type="email" id="username" placeholder ="example@email.com" required>
+      <label for="password"><strong>Password</strong></label>
+      <input type="password" id="password" placeholder="*********" required>
+
+
+<div>
+
+      </div>
+
+      <a href="#" class="forgot-password">Forgot Password</a>
+
+      <a href="home.html"><button type="submit" class="login-button">Login</button></a>
+    </form>
+
+    <p style="color: #9E95A2;" class="signup">Don’t have an account? <a style="color: #DF5532;" href="signin.html"><strong>Create Account</strong></a></p>
+  </div>
+  <script>
+    document.addEventListener('DOMContentLoaded', function() {
+      const studentRadio = document.querySelector('.ass');
+      const teacherRadio = document.querySelector('.ssa');
+      
+      const teacherLink = document.querySelector('.ssa + a');
+      teacherLink.addEventListener('click', function(e) {
+        if (!teacherRadio.checked) {
+          e.preventDefault();
+          teacherRadio.checked = true;
+        }
+      });
+
+      const loginForm = document.querySelector('form');
+      loginForm.addEventListener('submit', function(e) {
+        e.preventDefault();
+        
+        const username = document.getElementById('username').value;
+        const password = document.getElementById('password').value;
+        const isTeacher = teacherRadio.checked;
+
+        if (!username || !password) {
+          alert('Please fill in all fields');
+          return;
+        }
+
+        console.log('Login attempt:', {
+          username: username,
+          password: password,
+          role: isTeacher ? 'Teacher' : 'Student'
+        });
+
+        alert(`Login successful as ${isTeacher ? 'Teacher' : 'Student'}`);
+      });
+
+      const forgotPasswordLink = document.querySelector('.forgot-password');
+      forgotPasswordLink.addEventListener('click', function(e) {
+        e.preventDefault();
+        const email = document.getElementById('username').value;
+        
+        if (email) {
+          alert(`Password reset link will be sent to ${email}`);
+        } else {
+          alert('Please enter your email first');
+        }
+      });
+    });
+  </script>
+</body>
+</html>

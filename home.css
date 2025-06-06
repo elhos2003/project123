@@ -1,0 +1,564 @@
+.home {
+  background-color: #ffffff;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 100%;
+}
+
+.home .overlap-wrapper {
+  background-color: #ffffff;
+  overflow: hidden;
+  width: 1440px;
+  height: 1024px;
+}
+
+.home .overlap {
+  position: relative;
+  width: 1498px;
+  height: 1037px;
+  top: -34px;
+  left: -20px;
+}
+
+.home .vector {
+  position: absolute;
+  width: 46px;
+  height: 56px;
+  top: 55px;
+  left: 1376px;
+}
+
+.home .icon-cart {
+  position: absolute;
+  width: 69px;
+  height: 69px;
+  top: 48px;
+  left: 1205px;
+}
+
+.home .text-wrapper {
+  position: absolute;
+  width: 62px;
+  top: 611px;
+  left: 71px;
+  font-family: "Roboto", Helvetica;
+  font-weight: 400;
+  color: #221112;
+  font-size: 12px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.home .div {
+  position: absolute;
+  width: 126px;
+  top: 1007px;
+  left: 38px;
+  font-family: "Roboto", Helvetica;
+  font-weight: 400;
+  color: #221112;
+  font-size: 12px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.home .text-wrapper-2 {
+  position: absolute;
+  width: 78px;
+  top: 1007px;
+  left: 245px;
+  font-family: "Roboto", Helvetica;
+  font-weight: 400;
+  color: #221112;
+  font-size: 12px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.home .text-wrapper-3 {
+  position: absolute;
+  width: 64px;
+  top: 1007px;
+  left: 432px;
+  font-family: "Roboto", Helvetica;
+  font-weight: 400;
+  color: #221112;
+  font-size: 12px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.home .text-wrapper-4 {
+  position: absolute;
+  width: 168px;
+  top: 1007px;
+  left: 564px;
+  font-family: "Roboto", Helvetica;
+  font-weight: 400;
+  color: #221112;
+  font-size: 12px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.home .icon-project {
+  position: absolute;
+  width: 62px;
+  height: 62px;
+  top: 913px;
+  left: 253px;
+}
+
+.home .icon-karya {
+  position: absolute;
+  width: 62px;
+  height: 62px;
+  top: 913px;
+  left: 434px;
+}
+
+.home .icon-unjuk-kerja {
+  position: absolute;
+  width: 62px;
+  height: 62px;
+  top: 913px;
+  left: 71px;
+}
+
+.home .icon-mata-pelajaran {
+  position: absolute;
+  width: 62px;
+  height: 62px;
+  top: 913px;
+  left: 616px;
+}
+
+.home .component {
+  position: absolute;
+  width: 1498px;
+  height: 1037px;
+  top: 0;
+  left: 0;
+}
+
+.home .overlap-group {
+  position: relative;
+  width: 1440px;
+  height: 1018px;
+  top: 34px;
+  left: 20px;
+}
+
+.home .overlap-2 {
+  position: absolute;
+  width: 1440px;
+  height: 1018px;
+  top: 0;
+  left: 0;
+}
+
+.home .bg-home {
+  position: absolute;
+  width: 1440px;
+  height: 481px;
+  top: 0;
+  left: 0;
+}
+
+.home .logo-student {
+  position: absolute;
+  width: 342px;
+  height: 76px;
+  top: 148px;
+  left: 23px;
+}
+
+.home .group {
+  width: 646px;
+  top: 456px;
+  left: 398px;
+  position: absolute;
+  height: 75px;
+}
+
+.home .overlap-3 {
+  position: relative;
+  width: 648px;
+  height: 75px;
+}
+
+.home .overlap-group-wrapper {
+  width: 648px;
+  top: 0;
+  left: 0;
+  position: absolute;
+  height: 75px;
+}
+
+.home .overlap-4 {
+  position: relative;
+  width: 646px;
+  height: 75px;
+}
+
+.home .div-2 {
+  position: absolute;
+  width: 646px;
+  height: 75px;
+  top: 0;
+  left: 0;
+}
+
+.home .overlap-group-2 {
+  position: relative;
+  height: 75px;
+}
+
+.home .rectangle {
+  position: absolute;
+  width: 686px;
+  height: 115px;
+  top: -20px;
+  left: -20px;
+}
+
+.home .text-wrapper-5 {
+  position: absolute;
+  width: 208px;
+  top: 24px;
+  left: 32px;
+  font-family: "Roboto", Helvetica;
+  font-weight: 400;
+  color: #9e95a2;
+  font-size: 30px;
+  letter-spacing: 0;
+  line-height: normal;
+  white-space: nowrap;
+}
+
+.home .icon-search {
+  position: absolute;
+  width: 55px;
+  height: 48px;
+  top: 14px;
+  left: 575px;
+}
+
+.home .group-2 {
+  position: absolute;
+  width: 1366px;
+  height: 188px;
+  top: 237px;
+  left: 40px;
+}
+
+.home .text-wrapper-6 {
+  position: absolute;
+  width: 129px;
+  top: 0;
+  left: 0;
+  font-family: "Roboto", Helvetica;
+  font-weight: 400;
+  color: #ffffff;
+  font-size: 30px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.home .text-wrapper-7 {
+  position: absolute;
+  width: 683px;
+  top: 87px;
+  left: 0;
+  font-family: "Roboto", Helvetica;
+  font-weight: 500;
+  color: #ffffff;
+  font-size: 40px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.home .img {
+  position: absolute;
+  width: 217px;
+  height: 188px;
+  top: 0;
+  left: 1146px;
+  object-fit: cover;
+}
+
+.home .text-wrapper-8 {
+  position: absolute;
+  width: 99px;
+  top: 634px;
+  left: 578px;
+  font-family: "Roboto", Helvetica;
+  font-weight: 400;
+  color: #221112;
+  font-size: 12px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.home .banner {
+  position: absolute;
+  width: 764px;
+  height: 488px;
+  top: 530px;
+  left: 676px;
+}
+
+.home .mask-group {
+  position: absolute;
+  width: 117px;
+  height: 138px;
+  top: 571px;
+  left: 721px;
+}
+
+.home .content {
+  position: absolute;
+  width: 48px;
+  height: 41px;
+  top: 170px;
+  left: 819px;
+  background-image: url(https://c.animaapp.com/mao1kgkmspsE9y/img/icon-profile.svg);
+  background-size: 100% 100%;
+}
+
+.home .text-wrapper-9 {
+  position: absolute;
+  width: 95px;
+  top: 220px;
+  left: 792px;
+  font-family: "Roboto", Helvetica;
+  font-weight: 400;
+  color: #d6d1d5;
+  font-size: 12px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.home .icon-input {
+  position: absolute;
+  width: 54px;
+  height: 47px;
+  top: 168px;
+  left: 713px;
+}
+
+.home .text-wrapper-10 {
+  position: absolute;
+  width: 63px;
+  top: 218px;
+  left: 708px;
+  font-family: "Roboto", Helvetica;
+  font-weight: 400;
+  color: #d6d1d5;
+  font-size: 12px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.home .content-2 {
+  position: absolute;
+  width: 47px;
+  height: 41px;
+  top: 167px;
+  left: 615px;
+  background-image: url(https://c.animaapp.com/mao1kgkmspsE9y/img/icon-portfolio-1.svg);
+  background-size: 100% 100%;
+}
+
+.home .text-wrapper-11 {
+  width: 92px;
+  top: 218px;
+  left: 591px;
+  color: #d6d1d5;
+  position: absolute;
+  font-family: "Roboto", Helvetica;
+  font-weight: 400;
+  font-size: 12px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.home .icon-home-active {
+  position: absolute;
+  width: 45px;
+  height: 39px;
+  top: 167px;
+  left: 519px;
+}
+
+.home .text-wrapper-12 {
+  position: absolute;
+  width: 62px;
+  top: 218px;
+  left: 511px;
+  font-family: "Roboto", Helvetica;
+  font-weight: 400;
+  color: #df5532;
+  font-size: 12px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.home .text-wrapper-13 {
+  position: absolute;
+  width: 136px;
+  top: 806px;
+  left: 14px;
+  font-family: "Roboto", Helvetica;
+  font-weight: 400;
+  color: #221112;
+  font-size: 12px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.home .text-wrapper-14 {
+  position: absolute;
+  width: 132px;
+  top: 634px;
+  left: 200px;
+  font-family: "Roboto", Helvetica;
+  font-weight: 400;
+  color: #221112;
+  font-size: 12px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.home .text-wrapper-15 {
+  position: absolute;
+  width: 54px;
+  top: 806px;
+  left: 239px;
+  font-family: "Roboto", Helvetica;
+  font-weight: 400;
+  color: #221112;
+  font-size: 12px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.home .text-wrapper-16 {
+  position: absolute;
+  width: 72px;
+  top: 634px;
+  left: 409px;
+  font-family: "Roboto", Helvetica;
+  font-weight: 400;
+  color: #221112;
+  font-size: 12px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.home .text-wrapper-17 {
+  width: 97px;
+  top: 806px;
+  left: 397px;
+  color: #221112;
+  position: absolute;
+  font-family: "Roboto", Helvetica;
+  font-weight: 400;
+  font-size: 12px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.home .icon-calendar {
+  position: absolute;
+  width: 62px;
+  height: 54px;
+  top: 553px;
+  left: 597px;
+}
+
+.home .icon-guru {
+  position: absolute;
+  width: 62px;
+  height: 54px;
+  top: 725px;
+  left: 234px;
+}
+
+.home .icon-article {
+  position: absolute;
+  width: 62px;
+  height: 54px;
+  top: 553px;
+  left: 416px;
+}
+
+.home .text-wrapper-18 {
+  position: absolute;
+  width: 66px;
+  top: 806px;
+  left: 595px;
+  font-family: "Roboto", Helvetica;
+  font-weight: 400;
+  color: #221112;
+  font-size: 12px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.home .icon-achievment {
+  position: absolute;
+  width: 62px;
+  height: 54px;
+  top: 553px;
+  left: 234px;
+}
+
+.home .icon-class {
+  position: absolute;
+  width: 62px;
+  height: 54px;
+  top: 553px;
+  left: 53px;
+}
+
+.home .icon-data-master {
+  position: absolute;
+  width: 62px;
+  height: 54px;
+  top: 725px;
+  left: 53px;
+}
+
+.home .icon-portfolio {
+  position: absolute;
+  width: 62px;
+  height: 54px;
+  top: 725px;
+  left: 416px;
+}
+
+.home .icon-siswa {
+  position: absolute;
+  width: 62px;
+  height: 54px;
+  top: 725px;
+  left: 597px;
+}

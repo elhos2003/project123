@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Student Portfolio</title>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Roboto', sans-serif;
+      background: linear-gradient(to right, #ff9800, #ffc107);
+      color: white;
+    }
+    .header {
+      padding: 20px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+    .header h1 {
+      margin: 0;
+    }
+    .nav {
+      display: flex;
+      gap: 30px;
+    }
+    .nav a {
+      text-decoration: none;
+      color: white;
+      font-weight: bold;
+    }
+    .profile {
+      display: flex;
+      align-items: center;
+      padding: 0 20px;
+    }
+    .profile img {
+      width: 60px;
+      height: 60px;
+      border-radius: 50%;
+    }
+    .welcome {
+      font-size: 1.2em;
+      padding: 0 20px;
+      margin-bottom: 20px;
+    }
+    .search {
+      display: flex;
+      justify-content: center;
+      padding: 10px;
+    }
+    .search input {
+      width: 300px;
+      padding: 10px;
+      border-radius: 10px 0 0 10px;
+      border: none;
+      outline: none;
+    }
+    .search button {
+      padding: 10px;
+      border: none;
+      background-color: #e65100;
+      color: white;
+      border-radius: 0 10px 10px 0;
+      cursor: pointer;
+    }
+    .grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(100px, 1fr));
+      gap: 20px;
+      padding: 20px;
+      color: black;
+    }
+    .grid-item {
+      background-color: white;
+      border-radius: 10px;
+      padding: 15px;
+      text-align: center;
+      font-size: 0.9em;
+      box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    }
+    .promo {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      background-color: white;
+      margin: 20px;
+      border-radius: 10px;
+      color: black;
+      padding: 20px;
+    }
+    .promo-text {
+      max-width: 60%;
+    }
+    .promo img {
+      height: 150px;
+      border-radius: 10px;
+    }
+  </style>
+</head>
+<body>
+  <div class="header">
+    <div>
+      <h1>Student Portfolio</h1>
+    </div>
+    <div class="nav">
+
+      <a style="color: red;" href="#">Home</a>
+      <a href="portfolio1.html">Portfolio</a>
+      <a href="#">Input</a>
+      <a href="editprofile.html">Profile</a>
+    </div>
+    <div class="profile">
+      <img src="photo/Снимок экрана 2025-05-05 211644.png" alt="profile" />
+    </div>
+  </div>
+
+  <div class="welcome">
+    <p>Hello<br><strong>Olga Gregoriva</strong></p>
+  </div>
+
+  <div class="search">
+    <input type="text" id="searchInput" placeholder="Looking for...">
+    <button onclick="handleSearch()">🔍</button>
+  </div>
+
+  <div class="grid" id="grid">
+    <div class="grid-item">Achievement</div>
+    <div class="grid-item">Article</div>
+    <div class="grid-item">Calendar</div>
+    <div class="grid-item">Data Master</div>
+    <div class="grid-item">Guru</div>
+    <div class="grid-item">Portfolio</div>
+    <div class="grid-item">Siswa</div>
+    <div class="grid-item">Unjuk Kerja</div>
+    <div class="grid-item">Project</div>
+    <div class="grid-item">Karya</div>
+    <div class="grid-item">Mata Pelajaran</div>
+  </div>
+
+  <div class="promo">
+    <div class="promo-text">
+      <h2>Student Portfolio</h2>
+      <p>Easy and fun way to creat a portfolio</p>
+    </div>
+    <img src= "photo/Снимок экрана 2025-06-06 143438.png" alt="Student" />
+  </div>
+
+  <script>
+    function handleSearch() {
+      const input = document.getElementById('searchInput').value.toLowerCase();
+      const items = document.querySelectorAll('.grid-item');
+      items.forEach(item => {
+        const text = item.textContent.toLowerCase();
+        item.style.display = text.includes(input) ? 'block' : 'none';
+      });
+    }
+  </script>
+</body>
+</html>

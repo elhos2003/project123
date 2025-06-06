@@ -1,0 +1,110 @@
+body {
+    font-family: 'Segoe UI', sans-serif;
+    background: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+  }
+  
+  .login-container {
+    text-align: center;
+    width: 300px;
+  }
+  
+  .logo {
+    width: 100px;
+  }
+  
+  .greeting {
+    color: #9E95A2;
+    font-size: 12px;
+  }
+  
+  
+  
+  h3{
+    font-weight: normal;
+
+  }
+  
+  .role-selection {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 20px;
+  }
+  .role-selection  {
+    font-size: 15px;
+  }
+  
+  .ass[type="radio"] {
+    margin-right: 5px;
+    accent-color: #DF5532;
+
+  }
+  .ass[type="radio"]{
+    margin-right: 5px;
+  }
+  
+  form {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+  }
+  
+  label {
+    font-size: 17px;
+    margin-bottom: 5px;
+    color: #DF5532;
+  }
+  
+  input[type="email"],
+  input[type="password"] {
+    padding: 10px;
+    margin-bottom: 15px;
+    border: none;
+    border-bottom: 1px solid #ccc;
+    outline: none;
+  }
+  
+  .password-container {
+    position: relative;
+  }
+  
+  .toggle-password {
+    position: absolute;
+    right: 10px;
+    top: 10px;
+    cursor: pointer;
+  }
+  .forgot-password {
+    font-size: 12px;
+    color: gray;
+    text-align: center;
+    display: block;
+    margin-bottom: 20px;
+    text-decoration: none;
+  }
+  
+  .login-button {
+    background-color: #DF5532;
+    color: white;
+    padding: 10px;
+    border: none;
+    cursor: pointer;
+    font-weight: bold;
+    border-radius: 4px;
+    width: 200px;
+    margin-left: 50px;
+  }
+  
+  .signup {
+    margin-top: 15px;
+    font-size: 13px;
+  }
+  
+  .signup a {
+    color: #d35400;
+    text-decoration:none;
+  }    
